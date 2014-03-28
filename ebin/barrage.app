@@ -1,0 +1,11 @@
+{application,barrage,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{barrage_app,[]}},
+              {env,[]},
+              {modules,[barr_channel_server,barr_channel_sup,
+                        barr_db_interface,barr_dispatcher,barrage_app,
+                        barrage_sup,comihooks,cowfront_handler,merge_server,
+                        post_comm_notify]}]}.
